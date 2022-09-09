@@ -1,0 +1,188 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+    font-size: 14px;
+    margin: 0px;
+    background-color: #22212C;
+
+}
+
+header{
+   margin-left: 40px;
+   width: 350px; 
+}
+main{
+    margin-right: 40px;
+    flex-grow: 1;
+}
+
+div[class] {
+    border-radius: 20px;
+    background-color: #302F3D;
+    padding: 30px;
+    margin: 30px 0px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+h3{
+    display: inline;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+section[class="repositorio"]{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 30px;
+    padding: 0px;
+}
+
+footer, .profileTitle{
+    text-align: center;
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.profileTitle p{
+    font-weight: 300;
+    font-size: 13px;
+    
+    margin-top: 0px;
+}
+
+.infosContact div{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.infosContact img{
+    vertical-align:middle;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tecnologias_itens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+#tecnologias_itens span{
+    display: inline-block;
+    background: #CB92B1;
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: middle;
+
+    width: 85px;
+    height: 25px;
+
+
+    color: black;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+.experiencias, .educacao{
+    font-weight: 700;
+    font-size: 14px;
+}
+.experiencias p, .educacao p {
+    font-weight: 300;
+    font-size: 12px;
+    margin:1px
+}
+.experiencias p+p, .educacao p+p{
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.myProjects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.myProjects h2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.repositorio img{
+    vertical-align:middle;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.jsBall::before{
+    vertical-align:middle;
+    margin: 5px;
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+    background-color: #E7DE79;
+    border: 2px solid #837E9F;
+    border-radius: 100%;
+}
+
+div.repositorio{
+    flex-grow: 1;
+    margin: 0px;
+}
+
+.repositorio>span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent_Post__post section{
+    display: inline-block;
+    margin: 20px;
+}
+
+.recent_Post__post section h3{
+    margin: 5px 0px;
+}
+
+.recent_Post__post section h2, .recent_Post h2{
+    margin-bottom: 0px;
+}
+
+.recent_Post__post section p{
+    margin-top: 30px;
+}
+
+.recent_Post__post section h3:nth-last-child(1){
+    margin: 0px;
+    font-weight: 300;
+    font-size: 12px;
+}
+.myProjects span:hover{
+    color: aliceblue;
+
+}
